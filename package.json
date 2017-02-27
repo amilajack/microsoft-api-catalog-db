@@ -24,7 +24,7 @@
     "url": "https://github.com/amilajack/microsoft-api-catalog-db/issues"
   },
   "files": [
-    "databases"
+    "index.json"
   ],
   "homepage": "https://github.com/amilajack/microsoft-api-catalog-db#readme",
   "dependencies": {
