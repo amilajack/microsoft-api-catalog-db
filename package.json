@@ -1,0 +1,33 @@
+{
+  "name": "microsoft-api-catalog-db",
+  "version": "0.0.1",
+  "description": "A packaged version of Microsoft's API Catalog",
+  "main": "index.json",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amilajack/microsoft-api-catalog-db.git"
+  },
+  "scripts": {
+    "update-catalog-api-db": "download https://raw.githubusercontent.com/MicrosoftEdge/APICatalogData/master/apicatalogdata.json && mv apicatalogdata.json index.json"
+  },
+  "keywords": [
+    "microsoft",
+    "api",
+    "catalog",
+    "webidl",
+    "database",
+    "db"
+  ],
+  "author": "Amila Welihinda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/amilajack/microsoft-api-catalog-db/issues"
+  },
+  "files": [
+    "databases"
+  ],
+  "homepage": "https://github.com/amilajack/microsoft-api-catalog-db#readme",
+  "dependencies": {
+    "download-cli": "^1.0.1"
+  }
+}
